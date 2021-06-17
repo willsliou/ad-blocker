@@ -1,13 +1,16 @@
 // Background scripts
 chrome.webRequest.onBeforeRequest.addListener(
-    // Block sites
-    function(details { 
+    function(details) { 
         return {
-            cancel: true} 
-            },
+            cancel: true 
+            } 
+        },
         
         // Filter object to block select url's 
-        { urls: ["*://*.zedo.com/*"]},
+        { 
+            urls: ["*://*.zedo.com/*"]
+        },
+        
         ["blocking"]
 
 )
