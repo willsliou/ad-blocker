@@ -1,6 +1,6 @@
 {
     "name": "Poseidon",
-    "verison": "1.0",
+    "version": "1.0",
     "manifest_version": 2,
     "description": "Best ad blocker known to human-kind",
     "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
