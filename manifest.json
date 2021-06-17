@@ -1,7 +1,20 @@
 {
-    "name:" "Poseidon",
+    "name": "Poseidon",
     "verison": "1.0",
     "description": "Best ad blocker known to human-kind",
-    "permissions": ["webRequest"],
+    // Grant permissions for API's
+    // <all_urls>'s API grants permissions for all URL's
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    
+    // Objects
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    }
+
 
 }
