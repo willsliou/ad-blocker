@@ -1,0 +1,7 @@
+{
+    "name:" "Poseidon",
+    "verison": "1.0",
+    "description": "Best ad blocker known to human-kind",
+    "permissions": ["webRequest"],
+
+}
